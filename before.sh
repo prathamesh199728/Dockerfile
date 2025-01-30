@@ -1,3 +1,3 @@
 #!/bin/bash
-aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 676847358676.dkr.ecr.us-east-1.amazonaws.com
-docker pull 676847358676.dkr.ecr.us-east-1.amazonaws.com/helloworld:latest
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 545009862383.dkr.ecr.ap-south-1.amazonaws.com/helloworld
+docker pull 545009862383.dkr.ecr.ap-south-1.amazonaws.com/helloworld:latest
